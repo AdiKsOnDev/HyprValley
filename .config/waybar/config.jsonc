@@ -33,7 +33,7 @@
     "format": "  {:%H:%M}",
   },
   "clock": {
-    "format": "  {:L%a %d %b}",
+    "format": "  {:L%d %b}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
   },
   "cpu": {
@@ -42,11 +42,11 @@
     "interval": 1,
   },
   "memory": {
-    "format": "  {used:0.2f}G",
+    "format": "  {used:0.2f}G",
   },
   "pulseaudio": {
-    "format": "{icon} {volume}%",
-    "format-muted": "  muted",
+    "format": "{icon}  {volume}%",
+    "format-muted": "  Muted",
     "format-icons": {
       "headphone": " ",
       "hands-free": "󰂑",
@@ -72,3 +72,4 @@
     "format": "⏻ ",
   },
 }
+
