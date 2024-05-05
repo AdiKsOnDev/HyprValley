@@ -1,13 +1,13 @@
 amd-ucode
 base
 base-devel
+bibata-cursor-theme-bin
 brave-bin
 brightnessctl
 cliphist
 dolphin
 dunst
 efibootmgr
-firefox
 git
 github-cli
 grimblast-git
@@ -31,7 +31,9 @@ neofetch
 neovim
 network-manager-applet
 networkmanager
+nodejs
 notify-osd
+npm
 nvidia-dkms
 nwg-look
 obsidian
