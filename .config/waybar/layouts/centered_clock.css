@@ -86,12 +86,11 @@ window#waybar.empty #window {
 }
 
 #clock {
-  color: #89b4fa;
+  color: #74c7ec;
 }
 
 #clock.simpleclock {
   color: #89b4fa;
-  padding-left: 0;
 }
 
 #window {
@@ -126,3 +125,4 @@ window#waybar.empty #window {
 tooltip {
   border-radius: 8px;
 }
+
