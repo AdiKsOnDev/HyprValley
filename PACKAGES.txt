@@ -5,7 +5,6 @@ bibata-cursor-theme-bin
 brave-bin
 brightnessctl
 cliphist
-dolphin
 dunst
 efibootmgr
 git
@@ -27,6 +26,7 @@ linux-firmware
 linux-lts
 man-db
 nano
+nemo
 neofetch
 neovim
 network-manager-applet
