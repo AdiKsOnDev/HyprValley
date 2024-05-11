@@ -64,12 +64,6 @@ Wall_Cache()
     ln -fs "${wallList[setIndex]}" "${wallSet}"
     ln -fs "${wallList[setIndex]}" "${wallCur}"
     "${scrDir}/swwwallcache.sh" -w "${wallList[setIndex]}" &> /dev/null
-    "${scrDir}/swwwallbash.sh" "${wallList[setIndex]}" &
-    ln -fs "${thmbDir}/${wallHash[setIndex]}.sqre" "${wallSqr}"
-    ln -fs "${thmbDir}/${wallHash[setIndex]}.thmb" "${wallTmb}"
-    ln -fs "${thmbDir}/${wallHash[setIndex]}.blur" "${wallBlr}"
-    ln -fs "${thmbDir}/${wallHash[setIndex]}.quad" "${wallQad}"
-    ln -fs "${dcolDir}/${wallHash[setIndex]}.dcol" "${wallDcl}"
 }
 
 Wall_Change()
@@ -163,4 +157,5 @@ fi
 
 echo ":: applying wall :: \"$(readlink -f "${wallSet}")\""
 swww img "$(readlink "${wallSet}")" --transition-bezier .43,1.19,1,.4 --transition-type "${xtrans}" --transition-duration "${wallTransDuration}" --transition-fps "${wallFramerate}" --invert-y --transition-pos "$(hyprctl cursorpos)" &
-
+wal -c
+wal -i ~/Pictures/Wallpapers/tmp/wall.set -n
