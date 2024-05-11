@@ -7,7 +7,7 @@
   "gtk-layer-shell": true,
   "passthrough": false,
   "fixed-center": true,
-  "modules-left": ["custom/logo", "clock#simpleclock", "clock"],
+  "modules-left": ["clock#simpleclock", "clock"],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
     "cpu",
@@ -15,7 +15,6 @@
     "pulseaudio",
     "tray",
     "battery",
-    "custom/power",
   ],
   "battery": {
   	"interval": 60,
@@ -23,7 +22,7 @@
   		"warning": 30,
   		"critical": 15
   	},
-  	"format": "{capacity}% {icon}",
+  	"format": "{capacity}% {icon} ",
   	"format-icons": ["", "", "", "", ""],
   	"max-length": 25
   },
@@ -40,7 +39,7 @@
   },
   "clock#simpleclock": {
     "tooltip": false,
-    "format": "{:%H:%M}",
+    "format": "     {:%H:%M}",
   },
   "clock": {
     "format": "  {:L%d %b}",
@@ -67,10 +66,6 @@
       "default": [" ", " ", " "],
     },
     "on-click": "pavucontrol",
-  },
-  "custom/logo": {
-    "format": "",
-    "tooltip": false,
   },
   "custom/sep": {
     "format": "|",
