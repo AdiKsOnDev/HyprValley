@@ -1,3 +1,5 @@
+@import "colors.css";
+
 * {
   min-height: 0;
   font-family: "Poppins", sans-serif;
@@ -8,11 +10,11 @@
 window#waybar {
   transition-property: background-color;
   transition-duration: 0.5s;
-  background-color: rgba(24, 24, 37, 0.2);
+  background-color: rgba(24, 24, 37, 0);
 }
 
 window#waybar.hidden {
-  opacity: 0.5;
+  opacity: 0;
 }
 
 #workspaces {
@@ -29,7 +31,7 @@ window#waybar.hidden {
   margin: 4px 4px;
   border-radius: 100%;
   background-color: #181825;
-  color: #cdd6f4;
+  color: @main-fg;
   transition-duration: 300ms;
 }
 
@@ -37,16 +39,16 @@ window#waybar.hidden {
   box-shadow: inherit;
   text-shadow: inherit;
   color: #1e1e2e;
-  background-color: #cdd6f4;
+  background-color: @secondary-accent;
 }
 
 #workspaces button.active {
   color: #1e1e2e;
-  background-color: #89b4fa;
+  background-color: @primary-accent;
 }
 
 #workspaces button.urgent {
-  background-color: #f38ba8;
+  background-color: @secondary-accent;
 }
 
 #clock,
@@ -66,19 +68,19 @@ window#waybar.hidden {
 
 #window {
   border-radius: 15px;
-  background-color: #181825;
+  background-color: @main-bg;
 }
 
 #battery {
-  color: #00e400;
+  color: #00E472;
 }
 
 #battery.warning {
-  color: #FFD700;
+  color: #FFE140;
 }
 
 #battery.critical {
-  color: #FF0000;
+  color: #FF4040;
 }
 
 #custom-sep {
@@ -91,19 +93,19 @@ window#waybar.empty #window {
 }
 
 #cpu {
-  color: #94e2d5;
+  color: @complimentary;
 }
 
 #memory {
-  color: #cba6f7;
+  color: @secondary-accent;
 }
 
 #clock {
-  color: #89b4fa;
+  color: @primary-accent;
 }
 
 #clock.simpleclock {
-  color: #89b4fa;
+  color: @primary-accent;
   padding-left: 0;
 }
 
@@ -112,7 +114,7 @@ window#waybar.empty #window {
 }
 
 #pulseaudio {
-  color: #b4befe;
+  color: @primary-accent;
 }
 
 #pulseaudio.muted {
