@@ -5,6 +5,7 @@ bibata-cursor-theme-bin
 brave-bin
 brightnessctl
 cliphist
+deepin-gtk-theme
 dunst
 efibootmgr
 git
@@ -25,6 +26,7 @@ linux
 linux-firmware
 linux-lts
 man-db
+minecraft-launcher
 nano
 nemo
 neofetch
@@ -33,6 +35,7 @@ network-manager-applet
 networkmanager
 nodejs
 notify-osd
+noto-fonts-emoji
 npm
 nvidia-dkms
 nwg-look
@@ -45,12 +48,15 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pokemon-colorscripts-git
-qt5-wayland
+python-pywal
+python2
 qt6-wayland
 qt6ct
 ripgrep
 rofi
+rofi-calc
 sddm
+sddm-kcm
 slurp
 smartmontools
 sof-firmware
@@ -64,6 +70,7 @@ telegram-desktop
 ttf-jetbrains-mono-nerd
 ttf-poppins
 udiskie
+unzip
 vi
 vim
 vulkan-radeon
