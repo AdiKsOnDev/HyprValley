@@ -91,10 +91,12 @@ Wall_Change()
 
 #// set variables
 
-themeDir="$HOME/.config/hyprValley/theme"
+themeDir="$HOME/Pictures/Wallpapers/"
 scrDir="$(dirname "$(realpath "$0")")"
-wallSet="${themeDir}/wall.set"
+wallSet="${themeDir}/tmp/wall.set"
+
 cacheDir="$HOME/.cache/hyprValley"
+
 wallCur="${cacheDir}/wall.set"
 wallSqr="${cacheDir}/wall.sqre"
 wallTmb="${cacheDir}/wall.thmb"
@@ -154,7 +156,7 @@ fi
 
 [ -z "${xtrans}" ] && xtrans="grow"
 [ -z "${wallFramerate}" ] && wallFramerate=60
-[ -z "${wallTransDuration}" ] && wallTransDuration=0.4
+[ -z "${wallTransDuration}" ] && wallTransDuration=0.8
 
 
 #// apply wallpaper
