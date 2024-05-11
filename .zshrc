@@ -150,9 +150,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias l="ls -l"
 alias svenv="source .venv/bin/activate"
+alias neofetch="clear && neofetch"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+cat ~/.cache/wal/sequences
+source ~/.cache/wal/colors-tty.sh
 pokemon-colorscripts --no-title -r 1,3,6
+eval "$(starship init zsh)"eval "$(starship init zsh)"
