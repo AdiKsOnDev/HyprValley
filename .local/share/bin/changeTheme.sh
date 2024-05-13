@@ -43,3 +43,4 @@ fi
 
 sh $HOME/.local/share/bin/swwwallpaper.sh -n
 killall waybar
+waybar
