@@ -14,3 +14,6 @@ Hyprland Rice made on Arch Linux
 
 ### Ocean
 ![image](https://github.com/AdiKsOnDev/HyprValley/assets/80326762/6c45a90d-fd4d-419e-98da-52aa73ac4f01)
+
+### Sakura
+![image](https://github.com/AdiKsOnDev/HyprValley/assets/80326762/84a2f0b1-a922-413f-b7c8-c03e56d83458)
