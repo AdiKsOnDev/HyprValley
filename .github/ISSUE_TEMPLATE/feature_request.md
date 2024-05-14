@@ -1,3 +1,10 @@
+---
+name: Feature Request
+about: Suggest a feature for this project
+title: "[Feature Request]: Short description of the feature"
+labels: "enhancement"
+---
+
 # Feature Request
 
 ## Description
