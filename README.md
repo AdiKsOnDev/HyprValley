@@ -2,7 +2,7 @@
 Hyprland Rice made on Arch Linux
 
 # Contributions
-Contributions are **MORE** than welcome, but please refer to the [Contribution Guidelines](https://github.com/AdiKsOnDev/YouTranslate/blob/main/docs/CONTRIBUTING.md)
+Contributions are **MORE** than welcome, but please refer to the [Contribution Guidelines](https://github.com/AdiKsOnDev/HyprValley/blob/main/docs/CONTRIBUTING.md)
 
 # Setup Script
 >[!WARNING]
