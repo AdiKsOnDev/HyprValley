@@ -25,7 +25,7 @@ Please put an `x` in the boxes that apply:
 
 Please put an `x` in the boxes that apply:
 
-- [ ] I have read the [CONTRIBUTING.md](https://github.com/AdiKsOnDev/HyprValley/blob/main/docs/CONSTRIBUTING.md) document
+- [ ] I have read the [CONTRIBUTING.md](https://github.com/AdiKsOnDev/HyprValley/blob/main/docs/CONTRIBUTING.md) document
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
 - [ ] I have added necessary comments/documentation to my code.
