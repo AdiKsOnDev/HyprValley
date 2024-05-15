@@ -20,3 +20,6 @@ Contributions are **MORE** than welcome, but please refer to the [Contribution G
 
 ### Sakura
 ![image](https://github.com/AdiKsOnDev/HyprValley/assets/80326762/84a2f0b1-a922-413f-b7c8-c03e56d83458)
+
+### Code RED
+![image](https://github.com/AdiKsOnDev/HyprValley/assets/80326762/3aedfd9a-dca5-4904-9995-2495103da22f)
