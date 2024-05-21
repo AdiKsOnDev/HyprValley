@@ -13,6 +13,7 @@ theme_path=$1
 wallpapers_path="$HOME/Pictures/Wallpapers"
 waybar_colors="$HOME/.config/waybar/colors.css"
 rofi_colors="$HOME/.config/rofi/colors.rasi"
+sway_colors="$HOME/.config/swaylock/config"
 
 # Replace wallpapers
 if [ -d "$theme_path/Wallpapers" ]; then
@@ -39,6 +40,14 @@ if [ -f "$theme_path/colors.rasi" ]; then
     echo "Rofi colors replaced successfully."
 else
     echo "colors.rasi not found in the provided path."
+fi
+
+# Replace rofi colors
+if [ -f "$theme_path/sway-config" ]; then
+    cp "$theme_path/sway-config" "$sway_colors"
+    echo "Swaylock colors replaced successfully."
+else
+    echo "sway-config not found in the provided path."
 fi
 
 sh $HOME/.local/share/bin/swwwallpaper.sh -n
