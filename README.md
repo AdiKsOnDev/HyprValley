@@ -23,3 +23,6 @@ Contributions are **MORE** than welcome, but please refer to the [Contribution G
 
 ### Code RED
 ![image](https://github.com/AdiKsOnDev/HyprValley/assets/80326762/3aedfd9a-dca5-4904-9995-2495103da22f)
+
+# Acknowledgement
+Thanks to [MechaBar](https://github.com/Sejjy/MechaBar), where I took the base code and design for the bar in the later development
