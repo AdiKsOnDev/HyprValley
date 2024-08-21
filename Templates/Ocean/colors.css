@@ -1,8 +1,13 @@
-@define-color main-bg #001B1F;
+@define-color bar-bg #11111b;
+/* @define-color bar-bg rgba(0, 0, 0, 0); */
+
+@define-color main-bg #11111b;
 @define-color main-fg #F7F7F7;
 
-@define-color primary-accent  #C0FFF3;
-@define-color secondary-accent #FFC0CC;
-@define-color bright-accent #267FF8;
+@define-color wb-act-bg #267FF8;
+@define-color wb-act-fg #C0FFF3;
 
-@define-color complimentary #FFC0CC;
+@define-color bright-accent #9A4192;
+
+@define-color wb-hvr-bg #FFC0CC;
+@define-color wb-hvr-fg #C0FFF3;
