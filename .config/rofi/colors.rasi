@@ -1,33 +1,33 @@
 // @import "~/.cache/wal/colors-rofi-dark"
 * {
-    background-color: #001011ff;
-    power-colors: #001011ff;
-    background: #001011ff;
-    foreground: #FEFEB1FF;
-    border-color: #001011ff;
+    background-color: #1A1916;
+    power-colors: #1A1916;
+    background: #1A1916;
+    foreground: #FFFFFFFF;
+    border-color: #1A1916;
     spacing: 2;
 
-    text-color: #FEFEB1FF;
-    message-background: #001011ff;
-    active-background: #001011ff;
-    active-foreground: #FEFEB1FF;
-    normal-background: #001011ff;
-    normal-foreground: #FEFEB1FF;
-    urgent-background: #104C51FF;
-    urgent-foreground: #FEFEB1FF;
+    text-color: #FFFFFFFF;
+    message-background: #1A1916;
+    active-background: #1A1916;
+    active-foreground: #FFFFFFFF;
+    normal-background: #1A1916;
+    normal-foreground: #FFFFFFFF;
+    urgent-background: #B7CACF;
+    urgent-foreground: #FFFFFFFF;
 
-    alternate-active-background: #001011ff;
-    alternate-active-foreground: #FEFEB1FF;
-    alternate-normal-background: #001011ff;
-    alternate-normal-foreground: #FEFEB1FF;
-    alternate-urgent-background: #001011ff;
-    alternate-urgent-foreground: #FEFEB1FF;
+    alternate-active-background: #1A1916;
+    alternate-active-foreground: #FFFFFFFF;
+    alternate-normal-background: #1A1916;
+    alternate-normal-foreground: #FFFFFFFF;
+    alternate-urgent-background: #1A1916;
+    alternate-urgent-foreground: #FFFFFFFF;
 
-    selected-active-background: #104C51FF;
-    selected-active-foreground: #FEFEB1FF;
-    selected-normal-background: #104C51FF;
-    selected-normal-foreground: #FEFEB1FF;
-    selected-urgent-background: #104C51FF;
-    selected-urgent-foreground: #FEFEB1FF;
+    selected-active-background: #B7CACF;
+    selected-active-foreground: #FFFFFFFF;
+    selected-normal-background: #B7CACF;
+    selected-normal-foreground: #FFFFFFFF;
+    selected-urgent-background: #B7CACF;
+    selected-urgent-foreground: #FFFFFFFF;
 }
 
