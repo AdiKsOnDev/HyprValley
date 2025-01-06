@@ -14,6 +14,7 @@ wallpapers_path="$HOME/Pictures/Wallpapers"
 waybar_colors="$HOME/.config/waybar/colors.css"
 rofi_colors="$HOME/.config/rofi/colors.rasi"
 sway_colors="$HOME/.config/swaylock/config"
+system_theme_config="$HOME/.config/hypr/theme/theme.conf"
 
 # Replace wallpapers
 if [ -d "$theme_path/Wallpapers" ]; then
@@ -50,6 +51,13 @@ else
     echo "sway-config not found in the provided path."
 fi
 
+if [ -f "$theme_path/theme.conf" ]; then
+    cp "$theme_path/theme.conf" "$system_theme_config"
+else
+    echo "theme config not found in the provided path."
+fi
+
 sh $HOME/.local/share/bin/swwwallpaper.sh -n
 killall waybar
 waybar
+hyprctl reload
