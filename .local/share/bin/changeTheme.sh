@@ -14,6 +14,7 @@ wallpapers_path="$HOME/Pictures/Wallpapers"
 waybar_colors="$HOME/.config/waybar/colors.css"
 rofi_colors="$HOME/.config/rofi/colors.rasi"
 sway_colors="$HOME/.config/swaylock/config"
+obsidian_conf="$HOME/Documents/Second Brain/.obsidian/appearance.json"
 system_theme_config="$HOME/.config/hypr/theme/theme.conf"
 
 # Replace wallpapers
@@ -49,6 +50,13 @@ if [ -f "$theme_path/sway-config" ]; then
     echo "Swaylock colors replaced successfully."
 else
     echo "sway-config not found in the provided path."
+fi
+
+if [ -f "$theme_path/appearance.json" ]; then
+    cp "$theme_path/appearance.json" "$obsidian_conf"
+    echo "Obsidian copied successfully"
+else
+    echo "obsidian_conf not found in the provided path."
 fi
 
 if [ -f "$theme_path/theme.conf" ]; then

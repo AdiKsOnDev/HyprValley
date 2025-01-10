@@ -1,0 +1,29 @@
+@define-color bar-bg #0C0E15;
+@define-color workspaces    #181825;
+
+@define-color cpuinfo       #181825;
+@define-color memory        #1e1e2e;
+@define-color cpu           #313244;
+
+@define-color arch          #b4befe;
+
+@define-color time          #313244;
+@define-color date          #1e1e2e;
+@define-color wifi          #181825;
+
+@define-color pulseaudio    #181825;
+@define-color backlight     #1e1e2e;
+@define-color battery       #313244;
+@define-color power         #b4befe;
+/* @define-color bar-bg rgba(0, 0, 0, 0); */
+
+@define-color main-bg #0C0E15;
+@define-color main-fg #FFFFFF;
+
+@define-color wb-act-bg #E90606;
+@define-color wb-act-fg #FFFFFF;
+
+@define-color bright-accent #9A4192;
+
+@define-color wb-hvr-bg #E05C06;
+@define-color wb-hvr-fg #FFFFFF;
