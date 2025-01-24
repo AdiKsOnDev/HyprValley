@@ -1,0 +1,14 @@
+{
+  "accentColor": "",
+  "cssTheme": "Rosé Pine",
+  "theme": "system",
+  "baseFontSize": 18,
+  "textFontFamily": "Poppins,JetBrainsMono Nerd Font",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "bit-math",
+    "custom"
+  ],
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono,Monocraft"
+}
