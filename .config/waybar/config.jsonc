@@ -161,13 +161,13 @@
     // These scripts use rofi. If you use dmenu, you will need to create your own script.
     "custom/wifi": {
         "exec": "~/.config/waybar/scripts/network-status.sh",
-        "interval": 30,
-        "format": "󰢾 {}",  // use "{}" to display your network name
+        "interval": 3,
+        "return-type": "json",
+        "format": "{}",  // use "{}" to display your network name
         "tooltip": true,
-        "tooltip-format": "{}",
         "on-click": "~/.config/waybar/scripts/network-menu.sh",
-        "min-length": 6,
-        "max-length": 6
+        "min-length": 1,
+        "max-length": 1
     },
 
     "custom/media": {
