@@ -15,6 +15,9 @@
 
         "custom/paddw",
         "hyprland/window"       // window title
+
+        // "custom/paddw",
+        // "tray"
     ],
 	"modules-center": [
         "custom/paddc",
